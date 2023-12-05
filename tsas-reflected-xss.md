@@ -43,7 +43,7 @@ To reproduce the attack:
 
 
 
-5- Although Reflected XSS is not as critical as Stored XSS but still it can be used to steal user session cookies, allowing the attacker to impersonate the victim and perform actions on their behalf and can even redirect users to malicious websites. 
+- Although Reflected XSS is not as critical as Stored XSS but still it can be used to steal user session cookies, allowing the attacker to impersonate the victim and perform actions on their behalf and can even redirect users to malicious websites. 
 
 **Remediation:** 
 
