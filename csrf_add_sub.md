@@ -9,7 +9,7 @@ A Cross Site Request Forgery (CSRF) vulnerability in "/admin/subject.php" endpoi
 
 ```
 # Exploit Title: Cross Site Request Forgery (CSRF) vulnerability in PHPGurukul Teacher Subject Allocation Management System
-# Date: 05-12-2023
+# Date: 07-12-2023
 # Exploit Author: dhabaleshwardas
 # Vendor Homepage: https://phpgurukul.com/
 # Software Link: https://phpgurukul.com/teacher-subject-allocation-system-using-php-and-mysql/
@@ -21,12 +21,12 @@ A Cross Site Request Forgery (CSRF) vulnerability in "/admin/subject.php" endpoi
 
 To reproduce the attack:
 
-1- Head to the http://localhost/tsas/admin/subject.php endpoint 
+1- Head to the http://localhost/tsas/admin/subject.php endpoint after logging into the admin account.
 
 <img width="960" alt="1" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/635de38f-0bbe-4cc7-9818-4b0fa9d67bc8">
 
 
-2- Here you can see that there is only one Subject added, but now we will add another course using the HTML code we have written.
+2- Here you can see that there is only one course added, but now we will add another course using the HTML code we have written.
 
 <img width="450" alt="2" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/f4467f6e-1813-4027-abba-5ddc12787fd1">
 
