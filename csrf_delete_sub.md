@@ -3,13 +3,13 @@
 
 **Bug Description:**
 
-A Cross Site Request Forgery (CSRF) vulnerability in "/admin/subject.php" endpoint of PHPGurukul Teacher Subject Allocation Management System 1.0  allows attackers to "Delete a new Subject" via a crafted html request.
+A Cross Site Request Forgery (CSRF) vulnerability in "/admin/subject.php" endpoint of PHPGurukul Teacher Subject Allocation Management System 1.0  allows attackers to "Delete a Subject" via a crafted html request.
 
 **Steps to Reproduce:** 
 
 ```
 # Exploit Title: Cross Site Request Forgery (CSRF) vulnerability in PHPGurukul Teacher Subject Allocation Management System
-# Date: 07-12-2023
+# Date: 10-12-2023
 # Exploit Author: dhabaleshwardas
 # Vendor Homepage: https://phpgurukul.com/
 # Software Link: https://phpgurukul.com/teacher-subject-allocation-system-using-php-and-mysql/
