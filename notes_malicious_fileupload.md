@@ -74,7 +74,7 @@ startxref
 
 ```
 
-3- Submit the file, and it gets uploaded to the server.
+3- Submit the file, and it gets uploaded to the server. Now click on "Edit" on the "Note" where you added your malicious pdf.
 
 <img width="953" alt="2" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/e19137d4-458c-415f-a4f0-acdea6c3074c">
 
@@ -98,4 +98,5 @@ This vulnerability allows an attacker to upload a file with malicious content, l
 ## Remediation:
 
 1- Perform content inspection on uploaded files to detect and prevent the inclusion of malicious code.
+
 2- Use antivirus or anti-malware tools to scan uploaded files for potential threats.
