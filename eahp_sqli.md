@@ -2,7 +2,7 @@
 
 **Bug Description:**
 
-A vulnerability has been found in Emergency Ambulance Hiring Portal 1.0 and classified as critical. It has an SQL injection vulnerability in "/admin/login" endpoint. The manipulation of the parameter "username" leads to SQL injection. Remote attackers can leverage this vulnerability to manipulate a web application's SQL query by injecting malicious SQL code. This can lead to unauthorized access to databases, data theft, data manipulation, and other malicious activities.
+A vulnerability has been found in Emergency Ambulance Hiring Portal 1.0 and classified as critical. It has an SQL injection vulnerability in "/admin/login.php" endpoint. The manipulation of the parameter "username" leads to SQL injection. Remote attackers can leverage this vulnerability to manipulate a web application's SQL query by injecting malicious SQL code. This can lead to unauthorized access to databases, data theft, data manipulation, and other malicious activities.
 
 
 Steps to Reproduce:
