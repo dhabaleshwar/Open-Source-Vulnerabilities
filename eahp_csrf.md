@@ -21,12 +21,14 @@ Steps to Reproduce:
 
 To reproduce the attack:
 
-1- Head to the http://localhost/eahp/admin/manage-ambulance.php after logging into the admin account
+1- Head to the http://localhost/eahp/admin/manage-ambulance.php after logging into the admin account.
+
 
 <img width="830" alt="1" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/9d3ea2a0-7c99-4201-a241-ff82396794b1">
 
 
 2- Here you can see that we are going to delete the ambulance with "XYZ1234" number , for that we will use the HTML code we have written.
+
 
 <img width="450" alt="3" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/9d1c2ddd-ed72-41d9-8a31-56e35f4a5887">
 
@@ -46,15 +48,18 @@ To reproduce the attack:
 
 3- We'll then execute this HTML code and we successfully see that the record has been deleted successfully.
 
+
 <img width="611" alt="4" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/38c8c967-9f61-4b19-9413-5a240ba8ae05">
 
 
 4- This shows that the endpoint "/admin/manage-ambulance.php" is vulnerable to CSRF attack.
 
+
 <img width="958" alt="5" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/33999040-6fa6-4c98-a842-e19820eec5b0">
 
 
 5- CSRF attacks can lead to unauthorized actions being performed on behalf of a user. An attacker could manipulate data within the application, leading to the creation, modification, or deletion of records.
+
 
 Remediation:
 
