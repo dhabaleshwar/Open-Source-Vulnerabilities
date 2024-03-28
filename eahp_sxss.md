@@ -2,7 +2,7 @@
 
 **Bug Description:**
 
-An unauthenticated reflected cross-site scripting (XSS) vulnerability in PHPGurukul Emergency Ambulance Hiring Portal 1.0 allows attackers to execute arbitrary web scripts via a crafted payload injected in the "Hire an Ambulance" functionality.
+An unauthenticated stored cross-site scripting (XSS) vulnerability in PHPGurukul Emergency Ambulance Hiring Portal 1.0 allows attackers to execute arbitrary web scripts via a crafted payload injected in the "Hire an Ambulance" functionality.
 
 
 Steps to Reproduce:
