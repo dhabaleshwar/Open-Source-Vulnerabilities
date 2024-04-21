@@ -40,8 +40,8 @@ Vulnerability: However, it has been discovered that by submitting an incorrect P
 <img width="620" alt="4" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/6992174a-8700-4731-a640-c4f463af833c">
 
 
-5- Then forward the manipulated response to the server.
+6- Then forward the manipulated response to the server.
 
-6- We are successfully logged in as "admin". Now we can access all the functionalities as administrator.
+7- We are successfully logged in as "admin". Now we can access all the functionalities as administrator.
 
 <img width="771" alt="5" src="https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/assets/132373212/379c6155-5edb-4fa4-be85-3afe33ba7f07">
