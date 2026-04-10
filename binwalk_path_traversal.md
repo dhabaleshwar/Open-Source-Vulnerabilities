@@ -41,6 +41,10 @@ Users are advised to migrate to binwalk v3.x (Rust rewrite), which is not affect
 <img width="1905" height="940" alt="image" src="https://github.com/user-attachments/assets/1f9f4ab1-0fc8-4912-9800-c7850201b431" />
 <img width="1918" height="765" alt="image" src="https://github.com/user-attachments/assets/5681a541-6e35-4f1e-ae84-2341b506a16d" />
 
+## Update: Vendor Acknowledgement 
+
+<img width="1540" height="646" alt="image" src="https://github.com/user-attachments/assets/e6019ad4-adaa-4e77-b8ed-422514c3db4d" />
+
 
 ## Vulnerability Details
 
