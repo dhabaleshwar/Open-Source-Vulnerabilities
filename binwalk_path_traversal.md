@@ -28,7 +28,7 @@ class in `unpfs.py` but left `winceextract.py` unpatched.
 ## Special Note
 The affected repository (https://github.com/OSPG/binwalk) has been officially archived by its maintainers as of November 2024, with a public statement that this version will receive no further updates as development has shifted to the Rust-based binwalk v3. Due to the archived status, GitHub does not allow opening issues, pull requests, or security advisories on the repository. No security policy (SECURITY.md) or dedicated security contact exists for the Python version.
 
-Despite this, I made a good-faith effort to notify the maintainer by sending a detailed vulnerability report via email to the repository owner's publicly listed address (me@kropotkin.rocks) on 10-04-2026. Screenshots of this notification are attached below as proof of responsible disclosure attempt.
+Despite this, I made a good-faith effort to notify the maintainer by sending a detailed vulnerability report via email to the repository owner's publicly listed address (me@kropotkin.rocks) on 10-04-2026. Which the Vendor Acknowledged. Screenshots of this notification are attached below as proof of responsible disclosure attempt.
 
 I am proceeding with public disclosure and CVE assignment because: 
 (1) the repository is archived with no mechanism to report security issues 
