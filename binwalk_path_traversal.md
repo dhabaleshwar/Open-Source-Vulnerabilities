@@ -25,6 +25,23 @@ class in `unpfs.py` but left `winceextract.py` unpatched.
 | CVSS v3.1   | 7.8 High (AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H)  |
 | Discovered & Credit | 09-04-2026 by  Dhabaleshwar Das         |                   
 
+## Special Note
+The affected repository (https://github.com/OSPG/binwalk) has been officially archived by its maintainers as of November 2024, with a public statement that this version will receive no further updates as development has shifted to the Rust-based binwalk v3. Due to the archived status, GitHub does not allow opening issues, pull requests, or security advisories on the repository. No security policy (SECURITY.md) or dedicated security contact exists for the Python version.
+
+Despite this, I made a good-faith effort to notify the maintainer by sending a detailed vulnerability report via email to the repository owner's publicly listed address (me@kropotkin.rocks) on 10-04-2026. Screenshots of this notification are attached below as proof of responsible disclosure attempt.
+
+I am proceeding with public disclosure and CVE assignment because: 
+(1) the repository is archived with no mechanism to report security issues 
+(2) the maintainers have explicitly stated no patches will be released for this version
+(3) the same disclosure approach was followed by the original CVE-2022-4510 researcher, who noted "I did not find any security/coordinated disclosure policy or contact info" and reported publicly
+(4) despite being unmaintained, binwalk v2.4.3 (Python) remains the default binwalk command pre-installed on every Kali Linux installation and is actively used by hundreds of thousands of security professionals, CTF participants, and automated firmware analysis pipelines worldwide.
+
+Users are advised to migrate to binwalk v3.x (Rust rewrite), which is not affected by this vulnerability due to its centralized Chroot path sanitization architecture.
+
+<img width="1905" height="940" alt="image" src="https://github.com/user-attachments/assets/1f9f4ab1-0fc8-4912-9800-c7850201b431" />
+<img width="1918" height="765" alt="image" src="https://github.com/user-attachments/assets/5681a541-6e35-4f1e-ae84-2341b506a16d" />
+
+
 ## Vulnerability Details
 
 ### Root Cause
